@@ -18,9 +18,8 @@ def start_sensors():
     try:
         while True:
             print(uv_sensor.UVS())
-            s.send(str(uv_sensor.UVS()).encode('utf8'))
-#             s.send(bytes("Message from client.", "utf-8"))   
-            time.sleep(0.5)
+            s.send(str(uv_sensor.UVS()).encode('utf8'))    
+            time.sleep(2)
     except KeyboardInterrupt:
         exit()
 
