@@ -1,11 +1,13 @@
 from dash import Dash, html, dcc
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objs as go
-import pandas as pd
+
 import datetime
 from dashboard_styles import center
 
 app = Dash(__name__)
+server = app.server
 
 start_date = '2020-01-01'
 end_date = datetime.date.today()
@@ -50,4 +52,4 @@ def serve_layout():
 app.layout = serve_layout
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)

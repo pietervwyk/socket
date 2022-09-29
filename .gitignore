@@ -2,6 +2,12 @@ sensor_data.csv
 # dashboard.py
 # dashboard_styles.py
 
+# FOR HEROKU
+venv 
+*.pyc 
+.env 
+.DS_Store
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
