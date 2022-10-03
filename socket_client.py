@@ -32,7 +32,7 @@ def start_sensors():
             message = ",".join(sensors)
             print(message)
             s.send(message.encode('utf8'))    
-            time.sleep(2)
+            time.sleep(5*60)
     except KeyboardInterrupt:
         exit()
         

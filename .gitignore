@@ -1,7 +1,7 @@
-sensor_data.csv
+sensor_data_local.csv
 # dashboard.py
 # dashboard_styles.py
-
+extras/sensor_data.csv
 # FOR HEROKU
 venv 
 *.pyc 
