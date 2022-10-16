@@ -10,12 +10,12 @@ import pandas as pd
 
 # SOCKET VARIABLES
 # HOST = "192.168.137.1"
-# HOST = '192.168.0.101'
-HOST = "127.0.0.1"
+HOST = '192.168.0.102'
+# HOST = "127.0.0.1"
 PORT = 65432 
 
 # ONLINE DATABASE
-db_string = "postgresql://zlqcntsofqygzm:e59a3a6cf6a27c504fe282183ada49b1686e36ff7afacb77c854386a5bd66ac5@ec2-34-247-72-29.eu-west-1.compute.amazonaws.com:5432/db7dqloivpuvco"
+db_string = "postgresql://hslkxfirbemaoq:01f860338dfa67d43867ed24c0a609e446d635e6ec347cf1d1d101380bfb681a@ec2-52-31-77-218.eu-west-1.compute.amazonaws.com:5432/db58657qkakm5p"
 engine = create_engine(db_string, echo=False, poolclass=NullPool)
 #  pool_pre_ping=True
 Base = declarative_base()
