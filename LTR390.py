@@ -91,8 +91,8 @@ if __name__ == '__main__':
     time.sleep(1)
     try:
         while True:
-            val = sensor.UVS()
-            # val = sensor.ALS()
+            #val = sensor.UVS()
+            val = sensor.ALS()
             print("UVS: %d"  %val)
             time.sleep(0.5)
             

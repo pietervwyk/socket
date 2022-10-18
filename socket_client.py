@@ -8,8 +8,8 @@ import random
 import ANEMOMETER
 
 # HOST = "192.168.137.1"  # The server's hostname or IP address
-# HOST = '192.168.0.101'
-HOST = "127.0.0.1"
+HOST = '192.168.0.102'
+# HOST = "127.0.0.1"
 PORT = 65432  # The port used by the server
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
