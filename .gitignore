@@ -8,6 +8,8 @@ venv
 .env 
 .DS_Store
 
+# DB string
+db_string.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

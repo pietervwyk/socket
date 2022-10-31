@@ -13,9 +13,9 @@ import pandas as pd
 HOST = '192.168.0.102'
 # HOST = "127.0.0.1"
 PORT = 65432 
-
+db_string = "INSERT_DB_STRING"
 # ONLINE DATABASE
-db_string = "postgresql://hslkxfirbemaoq:01f860338dfa67d43867ed24c0a609e446d635e6ec347cf1d1d101380bfb681a@ec2-52-31-77-218.eu-west-1.compute.amazonaws.com:5432/db58657qkakm5p"
+
 engine = create_engine(db_string, echo=False, poolclass=NullPool)
 #  pool_pre_ping=True
 Base = declarative_base()

@@ -2,7 +2,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from sqlalchemy import create_engine, Float, Integer, Column, DateTime
 import datetime
 
-engine = create_engine("postgresql://zlqcntsofqygzm:e59a3a6cf6a27c504fe282183ada49b1686e36ff7afacb77c854386a5bd66ac5@ec2-34-247-72-29.eu-west-1.compute.amazonaws.com:5432/db7dqloivpuvco", echo=True)
+engine = create_engine("INSERT_DB_STRING", echo=True)
 Base = declarative_base()
 
 class SensorModel(Base):
